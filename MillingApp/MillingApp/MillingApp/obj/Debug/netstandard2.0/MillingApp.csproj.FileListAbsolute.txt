@@ -1,0 +1,15 @@
+C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\bin\Debug\netstandard2.0\MillingApp.deps.json
+C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\bin\Debug\netstandard2.0\MillingApp.dll
+C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\bin\Debug\netstandard2.0\ref\MillingApp.dll
+C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\bin\Debug\netstandard2.0\MillingApp.pdb
+C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\obj\Debug\netstandard2.0\MillingApp.csproj.AssemblyReference.cache
+C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\obj\Debug\netstandard2.0\MillingApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\obj\Debug\netstandard2.0\MillingApp.AssemblyInfoInputs.cache
+C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\obj\Debug\netstandard2.0\MillingApp.AssemblyInfo.cs
+C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\obj\Debug\netstandard2.0\MillingApp.csproj.CoreCompileInputs.cache
+C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\obj\Debug\netstandard2.0\MillingApp.dll
+C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\obj\Debug\netstandard2.0\ref\MillingApp.dll
+C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\obj\Debug\netstandard2.0\MillingApp.pdb
