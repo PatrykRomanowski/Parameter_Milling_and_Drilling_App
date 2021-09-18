@@ -4,9 +4,10 @@
              x:Class="MillingApp.DrillPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="Welcome to Drill Page"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand" 
+                   TextColor="{StaticResource goldColor}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

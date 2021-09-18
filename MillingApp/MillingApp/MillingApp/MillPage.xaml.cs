@@ -12,9 +12,12 @@ namespace MillingApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MillPage : ContentPage
     {
+
         public MillPage()
         {
             InitializeComponent();
+
         }
     }
+
 }
