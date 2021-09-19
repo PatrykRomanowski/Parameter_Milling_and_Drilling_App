@@ -15,7 +15,7 @@
                    TextDecorations="None">
                 </Label>
 
-                <Button Text="frezy typu 3"></Button>
+                <Button Text="frezy typu 3" Style="{StaticResource steel}"></Button>
                 <Button Text="frezy typu 4"></Button>
                 <Button Text="frezy typu 5"></Button>
                 <Button Text="frezy typu 6"></Button>

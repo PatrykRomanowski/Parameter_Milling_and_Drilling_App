@@ -16,6 +16,15 @@
                 <Setter Property="CornerRadius" Value="22"></Setter>
                 
             </Style>
+            <Style x:Key="steel" TargetType="Button">
+                <Setter Property="BorderWidth" Value="5"></Setter>
+            </Style>
+
+            <Style x:Key="sizeToolButton" TargetType="Button">
+                <Setter Property="HeightRequest" Value="80"></Setter>
+                <Setter Property="Margin" Value="20, 10, 20, 10"></Setter>
+                <Setter Property="CornerRadius" Value="50"></Setter>
+            </Style>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

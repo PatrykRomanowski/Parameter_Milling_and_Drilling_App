@@ -6,8 +6,10 @@ namespace MillingApp
 {
    public class  MillingParameter
     {
-        public static int cutterType; 
-        public int typeOfMaterial { get; set; }
+        public static int cutterType;
+        public static int groupOfStell;
+        public static int sizeTool;
+        
 
     }
 }

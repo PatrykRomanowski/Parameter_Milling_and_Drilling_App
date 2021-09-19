@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MillingApp.GroupSteelPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="Black">
+
+                <Label Text="Select a stell group " 
+                   TextColor="{StaticResource goldColor}"
+                   HorizontalTextAlignment="Center"
+                   FontSize="Title"
+                   Padding="12, 12, 0, 20"
+                   TextTransform="Uppercase"
+                   TextDecorations="None">
+                </Label>
+
+                <Button Text="stell" Style="{StaticResource steel}" Clicked="Button_Clicked"></Button>
+                <Button Text="stainless stell" Style="{StaticResource steel}"></Button>
+                <Button Text="cast iron" Style="{StaticResource steel}"></Button>
+                <Button Text="non-ferrous metals"></Button>
+                <Button Text="heat-resistant steels"></Button>
+                <Button Text="hard materials"></Button>
+
+
+
+
+            </StackLayout>
+
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

@@ -22,14 +22,14 @@ namespace MillingApp
         private void Frez1_Clicked(object sender, EventArgs e)
         {
             MillingParameter.cutterType = 1;
-            Navigation.PushAsync(new StellGradePage());
+            Navigation.PushAsync(new  GroupSteelPage());
             
         }
 
         private void Frez2_Clicked(object sender, EventArgs e)
         {
             MillingParameter.cutterType = 2;
-            Navigation.PushAsync(new StellGradePage());
+            Navigation.PushAsync(new GroupSteelPage());
         }
     }
 

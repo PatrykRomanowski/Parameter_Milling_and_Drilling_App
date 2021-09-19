@@ -17,7 +17,7 @@
                    TextDecorations="None">
             </Label>
            
-            <Button x:Name="Frez1" Text="Fanar HSS" Clicked="Frez1_Clicked"></Button>
+            <Button x:Name="Frez1" Text="Fanar Opti 230" Clicked="Frez1_Clicked"></Button>
             <Button x:Name="Frez2" Text="Fanar HSS" Clicked="Frez2_Clicked"></Button>
              <Button Text="frezy typu 3"></Button>
             <Button Text="frezy typu 4"></Button>
