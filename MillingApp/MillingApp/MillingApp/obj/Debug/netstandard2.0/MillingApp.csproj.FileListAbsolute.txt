@@ -15,3 +15,4 @@ C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\obj\Debug\netstandard2.0\
 C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\obj\Debug\netstandard2.0\MillingApp.pdb
 C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\obj\Debug\netstandard2.0\DrillPage.xaml.g.cs
 C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\obj\Debug\netstandard2.0\MillPage.xaml.g.cs
+C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\obj\Debug\netstandard2.0\StellGradePage.xaml.g.cs

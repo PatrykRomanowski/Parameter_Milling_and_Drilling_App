@@ -17,9 +17,9 @@
                    TextDecorations="None">
             </Label>
            
-            <Button x:Name="Frez1" Text="Fanar HSS"></Button>
-            <Button x:Name="Frez2" Text="Fanar HSS"></Button>
-            <Button Text="frezy typu 3"></Button>
+            <Button x:Name="Frez1" Text="Fanar HSS" Clicked="Frez1_Clicked"></Button>
+            <Button x:Name="Frez2" Text="Fanar HSS" Clicked="Frez2_Clicked"></Button>
+             <Button Text="frezy typu 3"></Button>
             <Button Text="frezy typu 4"></Button>
             <Button Text="frezy typu 5"></Button>
             <Button Text="frezy typu 6"></Button>
@@ -33,7 +33,7 @@
             <Label Text="Welcome to Milling Page"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"
-                   TextColor="{StaticResource goldColor}"/>
+                TextColor="{StaticResource goldColor}"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

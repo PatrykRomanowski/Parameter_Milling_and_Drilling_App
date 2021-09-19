@@ -13,6 +13,10 @@ namespace MillingApp
         public MainPage()
         {
             InitializeComponent();
+
+
         }
+      
     }
 }
+

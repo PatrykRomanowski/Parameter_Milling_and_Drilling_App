@@ -4,9 +4,9 @@ using System.Text;
 
 namespace MillingApp
 {
-    class MillingParameter
+   public class  MillingParameter
     {
-        public int cutterType { get; set; }
+        public static int cutterType; 
         public int typeOfMaterial { get; set; }
 
     }

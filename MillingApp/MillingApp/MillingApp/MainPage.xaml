@@ -4,6 +4,8 @@
             xmlns:local="clr-namespace:MillingApp"
              x:Class="MillingApp.MainPage"
             BarBackgroundColor="#3a3a4D"
+          
+          
             BackgroundColor="black"
             BarTextColor="{StaticResource goldColor}">
 

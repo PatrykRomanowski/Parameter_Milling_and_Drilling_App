@@ -10,7 +10,15 @@ namespace MillingApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage());
+
+
+          //  NavigationPage.SetHasBackButton(this, false);
+
+            ((NavigationPage)Application.Current.MainPage).BarBackgroundColor = Color.Black;
+            ((NavigationPage)Application.Current.MainPage).BarTextColor = Color.Gold;
+
+
         }
 
         protected override void OnStart()

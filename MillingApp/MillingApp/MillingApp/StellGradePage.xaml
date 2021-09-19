@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MillingApp.StellGradePage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="Black">
+
+                <Label Text="Select the tool model" 
+                   TextColor="{StaticResource goldColor}"
+                   HorizontalTextAlignment="Center"
+                   FontSize="Title"
+                   Padding="12, 12, 0, 20"
+                   TextTransform="Uppercase"
+                   TextDecorations="None">
+                </Label>
+
+                <Button Text="frezy typu 3"></Button>
+                <Button Text="frezy typu 4"></Button>
+                <Button Text="frezy typu 5"></Button>
+                <Button Text="frezy typu 6"></Button>
+                <Button Text="frezy typu 7"></Button>
+                <Button Text="frezy typu 8"></Button>
+                <Button Text="frezy typu 9"></Button>
+                <Button Text="frezy typu 10"></Button>
+                <Button Text="frezy typu 11"></Button>
+                <Button Text="frezy typu 12"></Button>
+
+                <Label Text="Welcome to Milling Page"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                TextColor="{StaticResource goldColor}"/>
+
+                <Label x:Name="Label_Text" Text="XD}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                 TextColor="{StaticResource goldColor}"/>
+            </StackLayout>
+            
+        </ScrollView>
+      
+    </ContentPage.Content>
+</ContentPage>

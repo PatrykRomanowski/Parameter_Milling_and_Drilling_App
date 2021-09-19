@@ -15,8 +15,21 @@ namespace MillingApp
 
         public MillPage()
         {
-            InitializeComponent();
+            InitializeComponent();       
 
+        }
+
+        private void Frez1_Clicked(object sender, EventArgs e)
+        {
+            MillingParameter.cutterType = 1;
+            Navigation.PushAsync(new StellGradePage());
+            
+        }
+
+        private void Frez2_Clicked(object sender, EventArgs e)
+        {
+            MillingParameter.cutterType = 2;
+            Navigation.PushAsync(new StellGradePage());
         }
     }
 
