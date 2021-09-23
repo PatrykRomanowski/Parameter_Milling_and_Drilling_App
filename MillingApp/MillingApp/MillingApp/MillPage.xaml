@@ -30,7 +30,8 @@
             <Button Text="frezy typu 11"></Button>
             <Button Text="frezy typu 12"></Button>
             
-            <Label Text="Welcome to Milling Page"
+            <Label x:Name="labelTest"
+                Text="Welcome to Milling Page"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"
                 TextColor="{StaticResource goldColor}"/>

@@ -16,5 +16,11 @@ namespace MillingApp
         {
             InitializeComponent();
         }
+
+        private void Button1mmToll_Clicked(object sender, EventArgs e)
+        {
+            MillingParameter.sizeTool = 1;
+            Navigation.PushAsync(new resoultPage());
+        }
     }
 }

@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MillingApp.Android", "Milli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MillingApp.iOS", "MillingApp\MillingApp.iOS\MillingApp.iOS.csproj", "{AA044213-7752-4802-94C4-6949730A3513}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MillingApp", "MillingApp\MillingApp\MillingApp.csproj", "{479D65F5-68AB-413F-89E2-BA9F0BE25C9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MillingApp", "MillingApp\MillingApp\MillingApp.csproj", "{479D65F5-68AB-413F-89E2-BA9F0BE25C9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{331CA708-CCBC-459A-992C-852D5DB0F353}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

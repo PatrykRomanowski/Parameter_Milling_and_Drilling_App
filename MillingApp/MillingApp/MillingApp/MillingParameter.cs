@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.IO;
 
 namespace MillingApp
 {
-   public class  MillingParameter
+   public static class  MillingParameter
     {
-        public static int cutterType;
+        public int cutterType { get; set; }
         public static int groupOfStell;
         public static int sizeTool;
-        
 
     }
 }

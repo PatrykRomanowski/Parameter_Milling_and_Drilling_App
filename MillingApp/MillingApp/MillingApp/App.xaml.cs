@@ -1,6 +1,9 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using System.Text;
+using System.IO;
+using System.Reflection;
 
 namespace MillingApp
 {
@@ -18,7 +21,7 @@ namespace MillingApp
             ((NavigationPage)Application.Current.MainPage).BarBackgroundColor = Color.Black;
             ((NavigationPage)Application.Current.MainPage).BarTextColor = Color.Gold;
 
-
+           
         }
 
         protected override void OnStart()

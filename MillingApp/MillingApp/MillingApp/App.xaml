@@ -7,6 +7,8 @@
     <Application.Resources>
         <ResourceDictionary>
             <Color x:Key="goldColor">gold</Color>
+            <Color x:Key="blackBackground">black</Color>
+            
             <Style TargetType="Button">
                 <Setter Property="BackgroundColor" Value="Gold"></Setter>
                 <Setter Property="Margin" Value="20, 1, 20, 1"></Setter>
@@ -14,8 +16,8 @@
                 <Setter Property="FontFamily" Value="Arial"></Setter>
                 <Setter  Property="FontSize" Value="16"></Setter>
                 <Setter Property="CornerRadius" Value="22"></Setter>
-                
             </Style>
+            
             <Style x:Key="steel" TargetType="Button">
                 <Setter Property="BorderWidth" Value="5"></Setter>
             </Style>
@@ -24,6 +26,19 @@
                 <Setter Property="HeightRequest" Value="80"></Setter>
                 <Setter Property="Margin" Value="20, 10, 20, 10"></Setter>
                 <Setter Property="CornerRadius" Value="50"></Setter>
+            </Style>
+
+            <Style x:Key="labelStyle" TargetType="Label">
+                <Setter Property="BackgroundColor" Value="White"></Setter>
+                <Setter Property="HeightRequest" Value="25"></Setter>
+                <Setter Property="Margin" Value="12, 12, 30, 20"></Setter>
+            </Style>
+
+            <Style x:Key="labelTextStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource goldColor}"></Setter>
+                <Setter Property="Margin" Value="12, 12, 30, 20"></Setter>
+                <Setter Property="HorizontalTextAlignment" Value="Center"></Setter>
+
             </Style>
         </ResourceDictionary>
     </Application.Resources>
