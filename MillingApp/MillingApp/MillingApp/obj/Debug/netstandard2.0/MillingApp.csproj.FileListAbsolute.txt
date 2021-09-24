@@ -19,4 +19,8 @@ C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\obj\Debug\netstandard2.0\
 C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\obj\Debug\netstandard2.0\GroupSteelPage.xaml.g.cs
 C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\obj\Debug\netstandard2.0\ToolSizePage.xaml.g.cs
 C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\obj\Debug\netstandard2.0\resoultPage.xaml.g.cs
-C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\bin\Debug\netstandard2.0\fileTxt\fd.txt
+C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\bin\Debug\netstandard2.0\fileTxt\fanarOpti230.txt
+C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\XAMARIN\millingApp\MillingApp\MillingApp\MillingApp\obj\Debug\netstandard2.0\MillingApp.csproj.CopyComplete

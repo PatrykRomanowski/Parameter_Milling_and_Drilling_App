@@ -18,9 +18,6 @@ namespace MillingApp
         public MillPage()
         {
             InitializeComponent();
-
-            
-
         }
 
         private void Frez1_Clicked(object sender, EventArgs e)

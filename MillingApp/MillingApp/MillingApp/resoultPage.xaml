@@ -15,7 +15,7 @@
         </Label>
                 <Grid>
                     <Label Style="{StaticResource labelTextStyle}" Text="VC = "></Label>
-                    <Label x:Name="resoultVc" Text="" Style="{StaticResource labelStyle}" Grid.Column="1" Grid.Row="0"></Label>
+                    <Label x:Name="resoultVc" FontSize="20" HorizontalTextAlignment="End" FormattedText="" Text="" Style="{StaticResource labelStyle}" Grid.Column="1" Grid.Row="0"></Label>
                 </Grid>
         </StackLayout>
         </ScrollView>

@@ -24,20 +24,24 @@ namespace MillingApp
             InitializeComponent();
 
             var assembly = IntrospectionExtensions.GetTypeInfo(typeof(App)).Assembly;
-            Stream stream = assembly.GetManifestResourceStream("MillingApp.fileTxt.fd.txt");
+            Stream stream = assembly.GetManifestResourceStream("MillingApp.fileTxt.fanarOpti230.txt");
             var text = "";
         
             using (var reader = new StreamReader(stream))
             {
-               for (int i=0; i<2; i++)
+               for (int i=0; i<MillingParameter.groupOfStell; i++)
                 {
                     text = reader.ReadLine();
                 }
             }
-            string[] foo = text.Split(new char[] { ' ' });
+            if (string.IsNullOrEmpty(text))
+            {
+                DisplayAlert("ALERT", "this tool cannot be used for this type of steel ", "OK");
+            }
+            string[] toolSize = text.Split(new char[] { ' ' });
            
 
-            resoultVc.Text = foo[MillingParameter.cutterType];
+           // resoultVc.Text = toolSize[MillingParameter.cutterType + 1];
 
         }
 
