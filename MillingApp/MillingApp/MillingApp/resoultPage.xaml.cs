@@ -39,13 +39,14 @@ namespace MillingApp
                 DisplayAlert("ALERT", "this tool cannot be used for this type of steel ", "OK");
             }
             string[] toolSize = text.Split(new char[] { ' ' });
-           
 
-           resoultVc.Text = toolSize[MillingParameter.sizeTool];
-
+            resoultVc.Text = toolSize[0];
+            resoultFz.Text = toolSize[MillingParameter.sizeTool];
+            var resoulN = (int)millResoult.resoultN(Int32.Parse(toolSize[0]));
+            resoultN.Text = resoulN.ToString();
+            var resoultVf = (int)millResoult.resoultVf(Convert.ToDouble(toolSize[MillingParameter.sizeTool]), resoulN);
+            resoultVfVf.Text = resoultVf.ToString();
+          
         }
-
-
-
     }
 }

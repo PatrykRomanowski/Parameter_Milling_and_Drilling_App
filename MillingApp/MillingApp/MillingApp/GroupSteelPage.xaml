@@ -22,9 +22,6 @@
                 <Button Text="heat-resistant steels"></Button>
                 <Button Text="hard materials"></Button>
 
-
-
-
             </StackLayout>
 
         </ScrollView>

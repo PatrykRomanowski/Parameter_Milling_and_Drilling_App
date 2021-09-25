@@ -14,8 +14,14 @@
                    TextDecorations="None">
         </Label>
                 <Grid>
-                    <Label Style="{StaticResource labelTextStyle}" Text="VC = "></Label>
-                    <Label x:Name="resoultVc" FontSize="20" HorizontalTextAlignment="End" FormattedText="" Text="" Style="{StaticResource labelStyle}" Grid.Column="1" Grid.Row="0"></Label>
+                    <Label Grid.Row="0" Grid.Column="0" Style="{StaticResource labelTextStyle}" Text="Vc = " HorizontalTextAlignment="End"></Label>
+                    <Label Grid.Row="0" Grid.Column="1"  x:Name="resoultVc" FontSize="20" HorizontalTextAlignment="End" Text="" Style="{StaticResource labelStyle}" ></Label>
+                    <Label Grid.Row="1" Grid.Column="0" Style="{StaticResource labelTextStyle}" Text="Fz = " HorizontalTextAlignment="End"></Label>
+                    <Label Grid.Row="1" Grid.Column="1"  x:Name="resoultFz" FontSize="20" HorizontalTextAlignment="End" Text="" Style="{StaticResource labelStyle}" ></Label>
+                    <Label Grid.Row="2" Grid.Column="0" Style="{StaticResource labelTextStyle}" Text="N = " HorizontalTextAlignment="End"></Label>
+                    <Label Grid.Row="2" Grid.Column="1"  x:Name="resoultN" FontSize="20" HorizontalTextAlignment="End" Text="" Style="{StaticResource labelStyle}" ></Label>
+                    <Label Grid.Row="3" Grid.Column="0" Style="{StaticResource labelTextStyle}" Text="Vf = " HorizontalTextAlignment="End"></Label>
+                    <Label Grid.Row="3" Grid.Column="1"  x:Name="resoultVfVf" FontSize="20" HorizontalTextAlignment="End" Text="" Style="{StaticResource labelStyle}" ></Label>
                 </Grid>
         </StackLayout>
         </ScrollView>

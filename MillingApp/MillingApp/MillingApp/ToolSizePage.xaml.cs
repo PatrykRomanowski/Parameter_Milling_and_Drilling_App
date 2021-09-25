@@ -70,6 +70,7 @@ namespace MillingApp
         private void Button1mmToll_Clicked(object sender, EventArgs e)
         {
             MillingParameter.sizeTool = 1;
+            MillingParameter.diameterTool = 1;
             colorbuttonAndBoolClick();
             Button1mm.BackgroundColor = Color.Purple;
             nextPage();
@@ -77,6 +78,7 @@ namespace MillingApp
         private void Button1_5mm_Clicked(object sender, EventArgs e)
         {
             MillingParameter.sizeTool = 2;
+            MillingParameter.diameterTool = 1.5;
             colorbuttonAndBoolClick();
             Button15mm.BackgroundColor = Color.Purple;
             nextPage();
@@ -85,6 +87,7 @@ namespace MillingApp
         private void Button2mm_Clicked(object sender, EventArgs e)
         {
             MillingParameter.sizeTool = 3;
+            MillingParameter.diameterTool = 2;
             colorbuttonAndBoolClick();
             Button2mm.BackgroundColor = Color.Purple;
             nextPage();
@@ -93,6 +96,7 @@ namespace MillingApp
         private void Button2_5mm_Clicked(object sender, EventArgs e)
         {
             MillingParameter.sizeTool = 4;
+            MillingParameter.diameterTool = 2.5;
             colorbuttonAndBoolClick();
             Button25mm.BackgroundColor = Color.Purple;
             nextPage();
@@ -101,6 +105,7 @@ namespace MillingApp
         private void Button3mm_Clicked(object sender, EventArgs e)
         {
             MillingParameter.sizeTool = 5;
+            MillingParameter.diameterTool = 3;
             colorbuttonAndBoolClick();
             Button3mm.BackgroundColor = Color.Purple;
             nextPage();
@@ -109,6 +114,7 @@ namespace MillingApp
         private void Button4mm_Clicked(object sender, EventArgs e)
         {
             MillingParameter.sizeTool = 6;
+            MillingParameter.diameterTool = 4;
             colorbuttonAndBoolClick();
             Button4mm.BackgroundColor = Color.Purple;
             nextPage();
@@ -117,6 +123,7 @@ namespace MillingApp
         private void Button5mm_Clicked(object sender, EventArgs e)
         {
             MillingParameter.sizeTool = 7;
+            MillingParameter.diameterTool = 5;
             colorbuttonAndBoolClick();
             Button5mm.BackgroundColor = Color.Purple;
             nextPage();
@@ -125,6 +132,7 @@ namespace MillingApp
         private void Button6mm_Clicked(object sender, EventArgs e)
         {
             MillingParameter.sizeTool = 8;
+            MillingParameter.diameterTool = 6;
             colorbuttonAndBoolClick();
             Button6mm.BackgroundColor = Color.Purple;
             nextPage();
@@ -133,6 +141,7 @@ namespace MillingApp
         private void Button8mm_Clicked(object sender, EventArgs e)
         {
             Button8mm.BackgroundColor = Color.Purple;
+            MillingParameter.diameterTool = 8;
             MillingParameter.sizeTool = 9;
             colorbuttonAndBoolClick();
             nextPage();
@@ -141,6 +150,7 @@ namespace MillingApp
         private void Button10mm_Clicked(object sender, EventArgs e)
         {
             MillingParameter.sizeTool = 10;
+            MillingParameter.diameterTool = 10;
             colorbuttonAndBoolClick();
             Button10mm.BackgroundColor = Color.Purple;
             nextPage();
@@ -149,6 +159,7 @@ namespace MillingApp
         private void Button12mm_Clicked(object sender, EventArgs e)
         {
             MillingParameter.sizeTool = 11;
+            MillingParameter.diameterTool = 12;
             colorbuttonAndBoolClick();
             Button12mm.BackgroundColor = Color.Purple;
             nextPage();
@@ -157,6 +168,7 @@ namespace MillingApp
         private void Button14mm_Clicked(object sender, EventArgs e)
         {
             MillingParameter.sizeTool = 12;
+            MillingParameter.diameterTool = 14;
             colorbuttonAndBoolClick();
             Button14mm.BackgroundColor = Color.Purple;
             nextPage();
@@ -165,6 +177,7 @@ namespace MillingApp
         private void Button16mm_Clicked(object sender, EventArgs e)
         {
             MillingParameter.sizeTool = 13;
+            MillingParameter.diameterTool = 16;
             colorbuttonAndBoolClick();
             Button16mm.BackgroundColor = Color.Purple;
             nextPage();
@@ -173,6 +186,7 @@ namespace MillingApp
         private void Button18mm_Clicked(object sender, EventArgs e)
         {
             MillingParameter.sizeTool = 14;
+            MillingParameter.diameterTool = 18;
             colorbuttonAndBoolClick();
             Button18mm.BackgroundColor = Color.Purple;
             nextPage();
@@ -181,6 +195,7 @@ namespace MillingApp
         private void Button20mm_Clicked(object sender, EventArgs e)
         {
             MillingParameter.sizeTool = 15;
+            MillingParameter.diameterTool = 20;
             colorbuttonAndBoolClick();
             Button20mm.BackgroundColor = Color.Purple;
             nextPage();

@@ -42,12 +42,14 @@
                 <Setter Property="BackgroundColor" Value="White"></Setter>
                 <Setter Property="HeightRequest" Value="25"></Setter>
                 <Setter Property="Margin" Value="12, 12, 30, 20"></Setter>
+                <Setter Property="FontAttributes" Value="Bold"></Setter>
             </Style>
 
             <Style x:Key="labelTextStyle" TargetType="Label">
                 <Setter Property="TextColor" Value="{StaticResource goldColor}"></Setter>
                 <Setter Property="Margin" Value="12, 12, 30, 20"></Setter>
                 <Setter Property="HorizontalTextAlignment" Value="Center"></Setter>
+                <Setter Property="FontSize" Value="20"></Setter>
 
             </Style>
         </ResourceDictionary>
