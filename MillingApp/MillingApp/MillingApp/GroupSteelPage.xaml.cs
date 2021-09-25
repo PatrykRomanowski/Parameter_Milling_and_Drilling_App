@@ -20,7 +20,7 @@ namespace MillingApp
         private void Button_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new ToolSizePage());
-            MillingParameter.groupOfStell = 2;
+            MillingParameter.groupOfStell = 1;
         }
     }
 }

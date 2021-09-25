@@ -41,7 +41,7 @@ namespace MillingApp
             string[] toolSize = text.Split(new char[] { ' ' });
            
 
-           // resoultVc.Text = toolSize[MillingParameter.cutterType + 1];
+           resoultVc.Text = toolSize[MillingParameter.sizeTool];
 
         }
 

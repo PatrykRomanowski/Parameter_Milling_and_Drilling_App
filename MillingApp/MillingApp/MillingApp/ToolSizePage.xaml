@@ -13,9 +13,9 @@
 
                 </Label>
                 <Grid>
-                    <Button x:Name="Button2Flutes"  Grid.Row="0"  Grid.Column="0" Style="{StaticResource sizeToolButton}" Clicked="ButtonTwoFlutes_Clicked"></Button>
-                    <Button x:Name="Button3Flutes" Grid.Row="0"  Grid.Column="1" Style="{StaticResource sizeToolButton}" Clicked="ButtonThreeFlutes_Clicked"></Button>
-                    <Button x:Name="Button4Flutes" Grid.Row="0"  Grid.Column="2" Style="{StaticResource sizeToolButton}" Clicked="ButtonFourFlutes_Clicked"></Button>
+                    <Button x:Name="Button2Flutes" Text="2"  Grid.Row="0"  Grid.Column="0" Style="{StaticResource sizeToolButton}" Clicked="ButtonTwoFlutes_Clicked"></Button>
+                    <Button x:Name="Button3Flutes" Text="3" Grid.Row="0"  Grid.Column="1" Style="{StaticResource sizeToolButton}" Clicked="ButtonThreeFlutes_Clicked"></Button>
+                    <Button x:Name="Button4Flutes" Text="4" Grid.Row="0"  Grid.Column="2" Style="{StaticResource sizeToolButton}" Clicked="ButtonFourFlutes_Clicked"></Button>
                 </Grid>
 
                 <Label Text="Select size tool" 
@@ -24,21 +24,21 @@
                   >
                 </Label>
                 <Grid>
-                    <Button x:Name="Button1mmToll" Text=" 1mm"  Grid.Row="0" Grid.Column="0" Style="{StaticResource sizeToolButton}" Clicked="Button1mmToll_Clicked" ></Button>
-                    <Button  Grid.Row="0"  Grid.Column="1" Style="{StaticResource sizeToolButton}"></Button>
-                    <Button  Grid.Row="0"  Grid.Column="2" Style="{StaticResource sizeToolButton}"></Button>
-                    <Button  Grid.Row="1" Grid.Column="0" Style="{StaticResource sizeToolButton}"></Button>
-                    <Button  Grid.Row="1"  Grid.Column="1" Style="{StaticResource sizeToolButton}"></Button>
-                    <Button  Grid.Row="1"  Grid.Column="2" Style="{StaticResource sizeToolButton}"></Button>
-                    <Button  Grid.Row="2" Grid.Column="0" Style="{StaticResource sizeToolButton}"></Button>
-                    <Button  Grid.Row="2"  Grid.Column="1" Style="{StaticResource sizeToolButton}"></Button>
-                    <Button  Grid.Row="2"  Grid.Column="2" Style="{StaticResource sizeToolButton}"></Button>
-                    <Button  Grid.Row="3" Grid.Column="0" Style="{StaticResource sizeToolButton}"></Button>
-                    <Button  Grid.Row="3"  Grid.Column="1" Style="{StaticResource sizeToolButton}"></Button>
-                    <Button  Grid.Row="3"  Grid.Column="2" Style="{StaticResource sizeToolButton}"></Button>
-                    <Button  Grid.Row="4" Grid.Column="0" Style="{StaticResource sizeToolButton}"></Button>
-                    <Button  Grid.Row="4"  Grid.Column="1" Style="{StaticResource sizeToolButton}"></Button>
-                    <Button  Grid.Row="4"  Grid.Column="2" Style="{StaticResource sizeToolButton}"></Button>
+                    <Button x:Name="Button1mm" Text=" 1 mm"  Grid.Row="0" Grid.Column="0" Style="{StaticResource sizeToolButton}" Clicked="Button1mmToll_Clicked" ></Button>
+                    <Button x:Name="Button15mm" Text="1,5 mm" Grid.Row="0"  Grid.Column="1" Style="{StaticResource sizeToolButton}" Clicked="Button1_5mm_Clicked"></Button>
+                    <Button x:Name="Button2mm" Text="2 mm" Grid.Row="0"  Grid.Column="2" Style="{StaticResource sizeToolButton}" Clicked="Button2mm_Clicked"></Button>
+                    <Button x:Name="Button25mm" Text="2.5mm" Grid.Row="1" Grid.Column="0" Style="{StaticResource sizeToolButton}" Clicked="Button2_5mm_Clicked"></Button>
+                    <Button x:Name="Button3mm" Text="3 mm" Grid.Row="1"  Grid.Column="1" Style="{StaticResource sizeToolButton}" Clicked="Button3mm_Clicked"></Button>
+                    <Button x:Name="Button4mm" Text="4 mm" Grid.Row="1"  Grid.Column="2" Style="{StaticResource sizeToolButton}" Clicked="Button4mm_Clicked"></Button>
+                    <Button x:Name="Button5mm" Text="5 mm" Grid.Row="2" Grid.Column="0" Style="{StaticResource sizeToolButton}" Clicked="Button5mm_Clicked"></Button>
+                    <Button x:Name="Button6mm" Text="6 mm" Grid.Row="2"  Grid.Column="1" Style="{StaticResource sizeToolButton}" Clicked="Button6mm_Clicked"></Button>
+                    <Button x:Name="Button8mm" Text="8 mm" Grid.Row="2"  Grid.Column="2" Style="{StaticResource sizeToolButton}" Clicked="Button8mm_Clicked"></Button>
+                    <Button x:Name="Button10mm" Text="10 mm" Grid.Row="3" Grid.Column="0" Style="{StaticResource sizeToolButton}" Clicked="Button10mm_Clicked"></Button>
+                    <Button x:Name="Button12mm" Text=" 12 mm" Grid.Row="3"  Grid.Column="1" Style="{StaticResource sizeToolButton}" Clicked="Button12mm_Clicked"></Button>
+                    <Button x:Name="Button14mm" Text="14 mm" Grid.Row="3"  Grid.Column="2" Style="{StaticResource sizeToolButton}" Clicked="Button14mm_Clicked"></Button>
+                    <Button x:Name="Button16mm" Text="16 mm" Grid.Row="4" Grid.Column="0" Style="{StaticResource sizeToolButton}" Clicked="Button16mm_Clicked"></Button>
+                    <Button x:Name="Button18mm" Text="18 mm" Grid.Row="4"  Grid.Column="1" Style="{StaticResource sizeToolButton}" Clicked="Button18mm_Clicked"></Button>
+                    <Button x:Name="Button20mm" Text="20 mm" Grid.Row="4"  Grid.Column="2" Style="{StaticResource sizeToolButton}" Clicked="Button20mm_Clicked"></Button>
                 </Grid>
 
             </StackLayout>

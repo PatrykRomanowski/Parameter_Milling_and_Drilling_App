@@ -33,6 +33,9 @@
                 <Setter Property="HeightRequest" Value="80"></Setter>
                 <Setter Property="Margin" Value="20, 10, 20, 10"></Setter>
                 <Setter Property="CornerRadius" Value="50"></Setter>
+                <Setter Property="FontSize" Value="20"></Setter>
+                <Setter Property="FontAttributes" Value="Bold"></Setter>
+
             </Style>
 
             <Style x:Key="labelStyle" TargetType="Label">
