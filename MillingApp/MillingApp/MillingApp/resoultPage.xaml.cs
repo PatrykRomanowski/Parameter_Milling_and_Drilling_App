@@ -21,11 +21,26 @@ namespace MillingApp
         {
             MillingParameter millResoult = new MillingParameter();
 
+            var assembly = IntrospectionExtensions.GetTypeInfo(typeof(App)).Assembly;
+            var text = "";
+
+            Stream stream = assembly.GetManifestResourceStream("MillingApp.fileTxt.fanarOpti230.txt");
+
+
             InitializeComponent();
 
-            var assembly = IntrospectionExtensions.GetTypeInfo(typeof(App)).Assembly;
-            Stream stream = assembly.GetManifestResourceStream("MillingApp.fileTxt.fanarOpti230.txt");
-            var text = "";
+            switch(MillingParameter.cutterType)
+            {
+                case 1:
+                    stream = assembly.GetManifestResourceStream("MillingApp.fileTxt.fanarOpti230.txt");
+                    break;
+                case 2:
+                     stream = assembly.GetManifestResourceStream("MillingApp.fileTxt.hsseOpti.txt");
+                    break;
+            }
+
+
+            // Stream stream = assembly.GetManifestResourceStream("MillingApp.fileTxt.fanarOpti230.txt");
         
             using (var reader = new StreamReader(stream))
             {
@@ -46,7 +61,7 @@ namespace MillingApp
             resoultN.Text = resoulN.ToString();
             var resoultVf = (int)millResoult.resoultVf(Convert.ToDouble(toolSize[MillingParameter.sizeTool]), resoulN);
             resoultVfVf.Text = resoultVf.ToString();
-          
-        }
+                }
+       
     }
 }
