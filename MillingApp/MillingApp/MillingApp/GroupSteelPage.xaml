@@ -7,20 +7,15 @@
             <StackLayout BackgroundColor="Black">
 
                 <Label Text="Select a stell group " 
-                   TextColor="{StaticResource goldColor}"
-                   HorizontalTextAlignment="Center"
-                   FontSize="Title"
-                   Padding="12, 12, 0, 20"
-                   TextTransform="Uppercase"
-                   TextDecorations="None">
+                   Style="{StaticResource labelSizeToolPage}">
                 </Label>
 
-                <Button Text="stell" Style="{StaticResource steel}" Clicked="Button_Clicked"></Button>
-                <Button Text="stainless stell" Style="{StaticResource steel}"></Button>
-                <Button Text="cast iron" Style="{StaticResource steel}"></Button>
-                <Button Text="non-ferrous metals"></Button>
-                <Button Text="heat-resistant steels"></Button>
-                <Button Text="hard materials"></Button>
+                <Button x:Name="stell" Text="stell" Style="{StaticResource steel}" Clicked="Button_Clicked"></Button>
+                <Button x:Name="stainless_stell" Text="stainless stell" Style="{StaticResource steel}" Clicked="stainless_stell_Clicked"></Button>
+                <Button x:Name="cast_iron" Text="cast iron" Style="{StaticResource steel}" Clicked="cast_iron_Clicked"></Button>
+                <Button x:Name="non_ferrous" Text="non-ferrous metals" Style="{StaticResource steel}" Clicked="non_ferrous_Clicked"></Button>
+                <Button x:Name="heat_resistant" Text="heat-resistant steels" Style="{StaticResource steel}" Clicked="heat_resistant_Clicked"></Button>
+                <Button x:Name="hard_metals" Text="hard materials" Style="{StaticResource steel}" Clicked="hard_metals_Clicked"></Button>
 
             </StackLayout>
 

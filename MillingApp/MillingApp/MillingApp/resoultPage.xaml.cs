@@ -39,9 +39,6 @@ namespace MillingApp
                     break;
             }
 
-
-            // Stream stream = assembly.GetManifestResourceStream("MillingApp.fileTxt.fanarOpti230.txt");
-        
             using (var reader = new StreamReader(stream))
             {
                for (int i=0; i<MillingParameter.groupOfStell; i++)
@@ -51,17 +48,20 @@ namespace MillingApp
             }
             if (string.IsNullOrEmpty(text))
             {
-                DisplayAlert("ALERT", "this tool cannot be used for this type of steel ", "OK");
+                DisplayAlert("ALERT", "this tool cannot be used for this type of steel ", "OK");           
             }
-            string[] toolSize = text.Split(new char[] { ' ' });
+            else
+            {
+                string[] toolSize = text.Split(new char[] { ' ' });
 
-            resoultVc.Text = toolSize[0];
-            resoultFz.Text = toolSize[MillingParameter.sizeTool];
-            var resoulN = (int)millResoult.resoultN(Int32.Parse(toolSize[0]));
-            resoultN.Text = resoulN.ToString();
-            var resoultVf = (int)millResoult.resoultVf(Convert.ToDouble(toolSize[MillingParameter.sizeTool]), resoulN);
-            resoultVfVf.Text = resoultVf.ToString();
-                }
-       
+
+                resoultVc.Text = toolSize[0];
+                resoultFz.Text = toolSize[MillingParameter.sizeTool];
+                var resoulN = (int)millResoult.resoultN(Int32.Parse(toolSize[0]));
+                resoultN.Text = resoulN.ToString();
+                var resoultVf = (int)millResoult.resoultVf(Convert.ToDouble(toolSize[MillingParameter.sizeTool]), resoulN);
+                resoultVfVf.Text = resoultVf.ToString();
+            }  
+         }    
     }
 }

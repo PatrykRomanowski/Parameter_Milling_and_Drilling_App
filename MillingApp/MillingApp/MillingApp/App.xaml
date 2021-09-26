@@ -14,6 +14,7 @@
                 <Setter Property="HorizontalTextAlignment" Value="Center"></Setter>
                 <Setter Property="FontSize" Value="Title"></Setter>
                 <Setter Property="TextTransform" Value="Uppercase"></Setter>
+                <Setter Property="Margin" Value="0, 35"></Setter>
             </Style>
             
             <Style TargetType="Button">
@@ -47,9 +48,11 @@
 
             <Style x:Key="labelTextStyle" TargetType="Label">
                 <Setter Property="TextColor" Value="{StaticResource goldColor}"></Setter>
+                <Setter Property="FontSize" Value="50"></Setter>
                 <Setter Property="Margin" Value="12, 12, 30, 20"></Setter>
                 <Setter Property="HorizontalTextAlignment" Value="Center"></Setter>
                 <Setter Property="FontSize" Value="20"></Setter>
+                <Setter Property="TextTransform" Value="Uppercase"></Setter>
 
             </Style>
         </ResourceDictionary>

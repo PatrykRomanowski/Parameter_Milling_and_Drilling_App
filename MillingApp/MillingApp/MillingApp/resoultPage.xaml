@@ -6,12 +6,7 @@
         <ScrollView>
             <StackLayout BackgroundColor="{StaticResource blackBackground}">
         <Label Text="Milling Parameter" 
-                   TextColor="{StaticResource goldColor}"
-                   HorizontalTextAlignment="Center"
-                   FontSize="Title"
-                   Padding="12, 12, 0, 20"
-                   TextTransform="Uppercase"
-                   TextDecorations="None">
+                   Style="{StaticResource labelSizeToolPage}">
         </Label>
                 <Grid>
                     <Label Grid.Row="0" Grid.Column="0" Style="{StaticResource labelTextStyle}" Text="Vc = " HorizontalTextAlignment="End"></Label>

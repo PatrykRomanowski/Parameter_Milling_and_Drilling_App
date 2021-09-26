@@ -9,12 +9,7 @@
             <StackLayout>
 
             <Label Text="Select the tool model" 
-                   TextColor="{StaticResource goldColor}"
-                   HorizontalTextAlignment="Center"
-                   FontSize="Title"
-                   Padding="12, 12, 0, 20"
-                   TextTransform="Uppercase"
-                   TextDecorations="None">
+                 Style="{StaticResource labelSizeToolPage}">
             </Label>
            
             <Button x:Name="Frez1" Text="Fanar Opti 230" Clicked="Frez1_Clicked"></Button>
@@ -29,12 +24,7 @@
             <Button Text="frezy typu 10"></Button>
             <Button Text="frezy typu 11"></Button>
             <Button Text="frezy typu 12"></Button>
-            
-            <Label x:Name="labelTest"
-                Text="Welcome to Milling Page"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand"
-                TextColor="{StaticResource goldColor}"/>
+           
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
