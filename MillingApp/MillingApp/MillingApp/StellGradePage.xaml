@@ -16,15 +16,7 @@
                 </Label>
 
                 <Button Text="frezy typu 3" Style="{StaticResource steel}"></Button>
-                <Button Text="frezy typu 4"></Button>
-                <Button Text="frezy typu 5"></Button>
-                <Button Text="frezy typu 6"></Button>
-                <Button Text="frezy typu 7"></Button>
-                <Button Text="frezy typu 8"></Button>
-                <Button Text="frezy typu 9"></Button>
-                <Button Text="frezy typu 10"></Button>
-                <Button Text="frezy typu 11"></Button>
-                <Button Text="frezy typu 12"></Button>
+               
 
                 <Label Text="Welcome to Milling Page"
                 VerticalOptions="CenterAndExpand" 

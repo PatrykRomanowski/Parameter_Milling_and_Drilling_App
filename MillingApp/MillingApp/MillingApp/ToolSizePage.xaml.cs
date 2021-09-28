@@ -220,11 +220,12 @@ namespace MillingApp
             Button20mm.BackgroundColor = Color.Gold;
         }
 
-        public void nextPage()
+        public async void nextPage()
         {
             if (flutesClick == true && sizeClick == true)
             {
-                Thread.Sleep(500);
+                await Task.Delay(1000);
+
                 Navigation.PushAsync(new resoultPage());
             }
         }

@@ -13,18 +13,8 @@
             </Label>
            
             <Button x:Name="Frez1" Text="Fanar Opti 230" Clicked="Frez1_Clicked"></Button>
-            <Button x:Name="Frez2" Text="Fanar HSS-E opti" Clicked="Frez2_Clicked"></Button>
-             <Button Text="frezy typu 3"></Button>
-            <Button Text="frezy typu 4"></Button>
-            <Button Text="frezy typu 5"></Button>
-            <Button Text="frezy typu 6"></Button>
-            <Button Text="frezy typu 7"></Button>
-            <Button Text="frezy typu 8"></Button>
-            <Button Text="frezy typu 9"></Button>
-            <Button Text="frezy typu 10"></Button>
-            <Button Text="frezy typu 11"></Button>
-            <Button Text="frezy typu 12"></Button>
-           
+                <Button x:Name="Frez2" Text="Fanar HSS-E opti" Clicked="Frez2_Clicked"></Button>
+
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

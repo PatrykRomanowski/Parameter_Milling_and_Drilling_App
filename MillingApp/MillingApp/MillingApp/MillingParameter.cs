@@ -24,7 +24,5 @@ namespace MillingApp
         {
             return fz * numberofFlutes * n / 1000;
         }
-    }
-
-   
+    }   
 }
